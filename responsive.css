@@ -1,0 +1,283 @@
+@media(max-width: 1400px){
+    html{
+        font-size: 80%;
+    }
+}
+@media(max-width: 1100px){
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width: 1000px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width: 700px){
+    html{
+        font-size: 50%;
+    }
+    .swiper-slide{
+        height: 20rem;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger i{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .closeBtn{
+        display: block;
+    }
+    .closeBtn i{
+        font-size: 5rem;
+    }
+    .logo{
+        width: 6rem;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    nav{
+        background: transparent;
+        width: 100%;
+        box-shadow: 0 0 0;
+        border-radius: 0;
+        backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(px);
+    border: none;
+    }
+    .navbar{
+        width: 100%;
+        z-index: 2;
+        /* position: static; */
+        margin: 0;
+    }
+    .navbar ul{
+        width: 0;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background: pink;
+        z-index: 5;
+        padding: 0;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .navbar ul li{
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    .dropdown{
+        z-index: 6;
+        width: 50%;
+    }
+    .dropdown_blocks_main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .swiper {
+        width: 50rem;
+      }
+    .sloganMain{
+        /* flex-direction: column-reverse; */
+        width: 90%;
+        opacity: 1;
+    }
+    .slognRight{
+        width: 60%;
+    }
+    .slognLeft{
+        width: 20rem;
+        height: 20rem;
+        margin: 2rem 0;
+    }
+    .footerMain{
+        width: 95%;
+    }
+    .navigateBtn{
+        opacity: 1;
+        width: 5rem;
+        height: 5rem;
+    }
+    .testimonialsCaraousal{
+        width: 80%;
+    }
+    .ProductPageMain{
+        flex-direction: column;
+        width: 95%;
+    }
+    .ProductImagesPart{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .bottomImages{
+        width: 40%;
+    }
+    .productDesriptionArea{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .marketPlaces{
+        width: 35%;
+    }
+    .fadedProductImageBox{
+        margin-left: 0rem;
+    }
+}
+@media(max-width: 400px){
+    html{
+        font-size: 55%;
+    }
+    .swiper {
+        width: 40rem;
+    }
+    .swiper-slide{
+        height: 18rem;
+    }
+    .matter{
+        height: 4rem;
+    }
+    .matter h5{
+        font-size: 0.8rem;
+    }
+    #backgroundfixedimage{
+        height: 25rem;
+    }
+    .lightscaraousal{
+        height: 17.5rem;
+        width: 80%;
+    }
+    .light1{
+        padding: 4rem 0;
+    }
+    .light1 h2{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        font-weight: 600;
+        color: var(--blue);
+    }
+    #slogan{
+        padding: 0;
+    }
+    .sloganMain{
+        padding: 0.1rem 0;
+        width: 95%;
+        flex-direction: column;
+    }
+    .slognRight{
+        width: 100%;
+        padding: 0;
+    }
+    .slognRight h1{
+        font-size: 2rem;
+    }
+    .slognRight p{
+        text-align: justify;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .slognLeft{
+        width: 20rem;
+        height: 20rem;
+        margin: 2rem 0;
+    }
+    .footerMain{
+        width: 90%;
+        flex-direction: column;
+    }
+    .sections{
+        text-align: center;
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .card{
+        margin: 0;
+        width: 17rem;
+    }
+    .headerBanner{
+        background: url(Images/casting.jpg);
+    }
+    .bottomImages{
+        display: none;
+    }
+    .ProductImageBox{
+        width: 100%;
+        height: 42rem;
+        border-radius: 0;
+    }
+    .spacetop{
+        display: none;
+    }
+    .breadcrumb{
+        display: none;
+    }
+    .slideBtnsArea{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ProductPageMain{
+        width: 100%;
+    }
+    .productDesriptionArea{
+        width: 90%;
+        margin: 3rem auto;
+    }
+    #slide{
+        width: 200rem;
+    }
+    .mainImage{
+        width: 42rem;
+        overflow: hidden;
+    }
+    .faded{
+        /* display: grid; */
+        background: #fff;
+    }
+    .fadedMain{
+        width: 100%;
+        padding: 0;
+    }
+    .fadedProductImagesPart{
+        flex-direction: column;
+    }
+    .fadedProductImageBox{
+        border-radius: 0;
+        margin: 0 auto;
+    }
+    .rightsidenavigatearea{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rightsidenavigatearea h2{
+        display: none;
+    }
+    .fadedcloseBtn{
+        top: -10rem;
+        font-size: 5rem;
+    }
+    .descMain h1{
+        font-size: 2.5rem;
+        
+    }
+    
+    .contact-col{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .flickity-page-dots{
+        display: none;
+    }
+}
+
+
+
+
+
+/* Product Page */
